@@ -1,4 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -66,7 +67,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/p839f30/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/zte/p839f30/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/zte/p839f30/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
-    vendor/zte/p839f30/proprietary/lib/lizteomx_core.so:system/lib/lizteomx_core.so \
+    vendor/zte/p839f30/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/zte/p839f30/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/zte/p839f30/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/zte/p839f30/proprietary/vendor/firmware/BCM20795A2_001.003.025.0005.0050_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A2_001.003.025.0005.0050_Generic_I2C_NCD_Unsigned_configdata.ncd \
@@ -79,8 +80,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/p839f30/proprietary/vendor/lib/egl/libESXGLESv2_adreno.so:system/vendor/lib/egl/libESXGLESv2_adreno.so \
     vendor/zte/p839f30/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/zte/p839f30/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
-    vendor/zte/p839f30/proprietary/vendor/lib/egl/lizte3dtools_adreno.so:system/vendor/lib/egl/lizte3dtools_adreno.so \
-    vendor/zte/p839f30/proprietary/vendor/lib/egl/lizteTapGLES.so:system/vendor/lib/egl/lizteTapGLES.so \
+    vendor/zte/p839f30/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/zte/p839f30/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/zte/p839f30/proprietary/vendor/lib/egl/libRBEGL_adreno.so:system/vendor/lib/egl/libRBEGL_adreno.so \
     vendor/zte/p839f30/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib/egl/libRBGLESv1_CM_adreno.so \
     vendor/zte/p839f30/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:system/vendor/lib/egl/libRBGLESv2_adreno.so \
@@ -217,20 +218,20 @@ vendor/zte/p839f30/proprietary/vendor/lib/libchromatix_imx214_preview.so:system/
     vendor/zte/p839f30/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/zte/p839f30/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/zte/p839f30/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
-    vendor/zte/p839f30/proprietary/vendor/lib/liztecci_legacy.so:system/vendor/lib/liztecci_legacy.so \
-    vendor/zte/p839f30/proprietary/vendor/lib/liztedi.so:system/vendor/lib/liztedi.so \
-    vendor/zte/p839f30/proprietary/vendor/lib/liztedp.so:system/vendor/lib/liztedp.so \
-    vendor/zte/p839f30/proprietary/vendor/lib/liztemi_cci.so:system/vendor/lib/liztemi_cci.so \
-    vendor/zte/p839f30/proprietary/vendor/lib/liztemi_client_helper.so:system/vendor/lib/liztemi_client_helper.so \
-    vendor/zte/p839f30/proprietary/vendor/lib/liztemi_client_qmux.so:system/vendor/lib/liztemi_client_qmux.so \
-    vendor/zte/p839f30/proprietary/vendor/lib/liztemi_common_so.so:system/vendor/lib/liztemi_common_so.so \
-    vendor/zte/p839f30/proprietary/vendor/lib/liztemi_csi.so:system/vendor/lib/liztemi_csi.so \
-    vendor/zte/p839f30/proprietary/vendor/lib/liztemi_encdec.so:system/vendor/lib/liztemi_encdec.so \
-    vendor/zte/p839f30/proprietary/vendor/lib/liztemiservices.so:system/vendor/lib/liztemiservices.so \
-    vendor/zte/p839f30/proprietary/vendor/lib/liztemi.so:system/vendor/lib/liztemi.so \
-    vendor/zte/p839f30/proprietary/vendor/lib/lizteomx_jpegenc.so:system/vendor/lib/lizteomx_jpegenc.so \
-    vendor/zte/p839f30/proprietary/vendor/lib/lizteSEEComAPI.so:system/vendor/lib/lizteSEEComAPI.so \
-    vendor/zte/p839f30/proprietary/vendor/lib/lizteti-perfd-client.so:system/vendor/lib/lizteti-perfd-client.so \
+    vendor/zte/p839f30/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    vendor/zte/p839f30/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
+    vendor/zte/p839f30/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/zte/p839f30/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
+    vendor/zte/p839f30/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
+    vendor/zte/p839f30/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
+    vendor/zte/p839f30/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
+    vendor/zte/p839f30/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
+    vendor/zte/p839f30/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+    vendor/zte/p839f30/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/zte/p839f30/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
+    vendor/zte/p839f30/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/zte/p839f30/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/zte/p839f30/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/zte/p839f30/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/zte/p839f30/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
     vendor/zte/p839f30/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
@@ -253,9 +254,9 @@ vendor/zte/p839f30/proprietary/vendor/lib/libchromatix_imx214_preview.so:system/
     vendor/zte/p839f30/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/zte/p839f30/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/zte/p839f30/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/zte/p839f30/proprietary/vendor/lib/soundfx/liztecbassboost.so:system/vendor/lib/soundfx/liztecbassboost.so \
-    vendor/zte/p839f30/proprietary/vendor/lib/soundfx/liztecreverb.so:system/vendor/lib/soundfx/liztecreverb.so \
-    vendor/zte/p839f30/proprietary/vendor/lib/soundfx/liztecvirt.so:system/vendor/lib/soundfx/liztecvirt.so
+    vendor/zte/p839f30/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
+    vendor/zte/p839f30/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
+    vendor/zte/p839f30/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
