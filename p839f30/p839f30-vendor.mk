@@ -221,7 +221,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/p839f30/proprietary/vendor/lib/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcbassboost.so \
     vendor/zte/p839f30/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
     vendor/zte/p839f30/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
-    vendor/zte/p839f30/proprietary/data/cywee/project_208.hex:system/data/cywee/project_208.hex
+    vendor/zte/p839f30/proprietary/data/cywee/project_208.hex:$(TARGET_COPY_OUT_VENDOR)/data/cywee/project_208.hex
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
